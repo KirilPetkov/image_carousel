@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/png" href="photo.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Slider</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="image fade">
+            <img src="img/th.jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/th (1).jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/th (2).jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/th (3).jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/th (4).jpg" width="100%">
+        </div>
+        <div class="image fade">
+            <img src="img/th (5).jpg" width="100%">
+        </div>
+        
+        <i id="prev" onclick="show_image(-1)" class="fa-solid fa-backward"></i>
+        <i id="next" onclick="show_image(1)" class="fa-solid fa-forward"></i>
+
+        <div class="dots">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
